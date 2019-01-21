@@ -172,21 +172,21 @@
 			);
 			sourceTree = "<group>";
 		};
-		7EFF8BD221F5B33900F8FCAA /* ZoomIV */ = {
-			isa = PBXGroup;
-			children = (
-				7EFF8BD321F5B34E00F8FCAA /* Classes */,
-			);
-			name = ZoomIV;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		7EFF8BD321F5B34E00F8FCAA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				7EFF8BD421F5B39500F8FCAA /* ZoomableImageView.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		7EFF8BF421F5BABD00F8FCAA /* ZoomIV */ = {
+			isa = PBXGroup;
+			children = (
+				7EFF8BD321F5B34E00F8FCAA /* Classes */,
+			);
+			name = ZoomIV;
+			path = "New Group1";
 			sourceTree = "<group>";
 		};
 		8B46A467284777C28C55A82839F41F24 /* Pods-ZoomIV_Example */ = {
@@ -226,7 +226,7 @@
 		E09FF1304EDC1D6F6593CF79F6C65243 /* ZoomIV */ = {
 			isa = PBXGroup;
 			children = (
-				7EFF8BD221F5B33900F8FCAA /* ZoomIV */,
+				7EFF8BF421F5BABD00F8FCAA /* ZoomIV */,
 				0CCE706D52877603EC483DE813B46103 /* Pod */,
 				77FBAA286C06B8E4C23A7D296CE2D349 /* Support Files */,
 			);

@@ -26,7 +26,7 @@ This pod allows you to zoom into any image whether it's in the supuerview or a t
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'prosherifzekr' => 'prosherifzekry@gmail.com' }
   s.source           = { :git => 'https://github.com/prosherifzekr/ZoomIV.git', :tag => s.version.to_s }
-  #s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
