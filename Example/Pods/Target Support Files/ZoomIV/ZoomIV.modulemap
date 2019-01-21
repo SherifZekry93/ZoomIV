@@ -1,0 +1,6 @@
+framework module ZoomIV {
+  umbrella header "ZoomIV-umbrella.h"
+
+  export *
+  module * { export * }
+}

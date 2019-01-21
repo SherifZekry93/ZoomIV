@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0624454F6C94700BD3D62A7684046AE1 /* Pods-ZoomIV_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4530E9565365FF6126CECA6D2CDA63D4 /* Pods-ZoomIV_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12490030C28119C5229A4D77F248C309 /* Pods-ZoomIV_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1589737DEA0A2E14154A486892D850 /* Pods-ZoomIV_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45293B3987EFCE101BB8E526C4EADB2B /* ZoomIV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408A31EE247BED7B6439A4F99F56FC44 /* ZoomIV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE039AE26C98FC71CD49E037C13CB4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		713BBB663079DB8CA87BA1001A9E121E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6826834D8FB909300B27093861DB53B /* ReplaceMe.swift */; };
+		86B217EA4C8E13776B4A40B8BFAE0F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		986FB0AAC29BFCC677A53B6E51910AAB /* Pods-ZoomIV_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D91E460BFB86D0C0A3FDD202FD9BED9 /* Pods-ZoomIV_Tests-dummy.m */; };
+		B6FF8B81E56D6820A8AD96392BF4C7EF /* Pods-ZoomIV_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7EA7B42DB47E1D6A2603E486C1345 /* Pods-ZoomIV_Example-dummy.m */; };
+		DCCFF993F13B895FA854CCE4AA6AFAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FCB95D5255BB4AEF3D6ACECADFC91752 /* ZoomIV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB7977AB835D61FECF6243B4893E593 /* ZoomIV-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB098E058B85E082AC9D4162CAF5DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153C5BC61F831D4B26421461ECE9696C;
+			remoteInfo = "Pods-ZoomIV_Example";
+		};
+		734D645D613B1BC383F5022AAD66A24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF7244B195DCFDD7A3D835AF5326E65;
+			remoteInfo = ZoomIV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD0D94588A9615C49095B267A48C0CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D77FE2156D3AE1DBEAF2CF65C3FA5AE /* Pods-ZoomIV_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomIV_Example-frameworks.sh"; sourceTree = "<group>"; };
+		12550EDAB89EB915EAC1DCDC1E4DF616 /* Pods_ZoomIV_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomIV_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB7977AB835D61FECF6243B4893E593 /* ZoomIV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZoomIV-dummy.m"; sourceTree = "<group>"; };
+		211142D846299EFEAB4C823364D74047 /* Pods_ZoomIV_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoomIV_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0E2C0CC61E596F1162C5520D0E66C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA3EBE151F1D59F3001183C12881941 /* Pods-ZoomIV_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomIV_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		316E8172E2C0DE87CF324A1FFB6284CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		34E7B71011A9B0DBB69EEE17447EB4C4 /* Pods-ZoomIV_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomIV_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		408A31EE247BED7B6439A4F99F56FC44 /* ZoomIV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomIV-umbrella.h"; sourceTree = "<group>"; };
+		443A08A2768927043A2BBB3B3F44DB73 /* ZoomIV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomIV-prefix.pch"; sourceTree = "<group>"; };
+		4530E9565365FF6126CECA6D2CDA63D4 /* Pods-ZoomIV_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomIV_Example-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D91E460BFB86D0C0A3FDD202FD9BED9 /* Pods-ZoomIV_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomIV_Tests-dummy.m"; sourceTree = "<group>"; };
+		5E5D93A11B7B0DE706B5DC4B75BF20AF /* ZoomIV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZoomIV.xcconfig; sourceTree = "<group>"; };
+		71020BD33CC84F6379A98507B6E193FB /* ZoomIV.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZoomIV.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C37E8014610289FF1C5495C2E42973C /* Pods-ZoomIV_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomIV_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98B7EA7B42DB47E1D6A2603E486C1345 /* Pods-ZoomIV_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomIV_Example-dummy.m"; sourceTree = "<group>"; };
+		9CB41EECDA4103F7EA653D5860CD49A6 /* Pods-ZoomIV_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomIV_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3DA5F5CC046E1AC11728DA1994A8D6C /* Pods-ZoomIV_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomIV_Tests-resources.sh"; sourceTree = "<group>"; };
+		B432D4BC963BA5F6A5A175DD24638384 /* Pods-ZoomIV_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomIV_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB1589737DEA0A2E14154A486892D850 /* Pods-ZoomIV_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZoomIV_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC26C9A6DC40C6F533E4F3F4C4FB881B /* Pods-ZoomIV_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomIV_Example-resources.sh"; sourceTree = "<group>"; };
+		D0ED3A1EC941CD11290CD978B1C01818 /* Pods-ZoomIV_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZoomIV_Tests.modulemap"; sourceTree = "<group>"; };
+		DBE206E21AE9664ECC4DFFFD240B1986 /* Pods-ZoomIV_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZoomIV_Example.modulemap"; sourceTree = "<group>"; };
+		DD2DAF0363863D5DAA6231B2D0D68726 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1964F3778A18CD99BD3C0A7023618C2 /* Pods-ZoomIV_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomIV_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E6826834D8FB909300B27093861DB53B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZoomIV/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EB732F3FC055C578610E5746C89BFB37 /* Pods-ZoomIV_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomIV_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED99C756644DCB960020348679214115 /* Pods-ZoomIV_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomIV_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFF5077320E7686E586FEC34ED2E678D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F78D714E0A519C7CD8E5F8218484C0AF /* ZoomIV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZoomIV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89E3BA186566F66609EFD939A284762 /* Pods-ZoomIV_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomIV_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FCB4EB8AFD19DA86B651D628F2C9935A /* ZoomIV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZoomIV.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14541D6C5E1ECFAC6005F0796CEF3EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCFF993F13B895FA854CCE4AA6AFAE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C087B6BA30B68DCED579AD5F17C9679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE039AE26C98FC71CD49E037C13CB4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7099F099EE41CEE82444FDBBCA29FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B217EA4C8E13776B4A40B8BFAE0F3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCE706D52877603EC483DE813B46103 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EFF5077320E7686E586FEC34ED2E678D /* LICENSE */,
+				316E8172E2C0DE87CF324A1FFB6284CD /* README.md */,
+				71020BD33CC84F6379A98507B6E193FB /* ZoomIV.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		11C5D201855011FBD6463524B284BBE2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B46A467284777C28C55A82839F41F24 /* Pods-ZoomIV_Example */,
+				733050A4D11C296903205D34226BC174 /* Pods-ZoomIV_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		733050A4D11C296903205D34226BC174 /* Pods-ZoomIV_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0E2C0CC61E596F1162C5520D0E66C5 /* Info.plist */,
+				D0ED3A1EC941CD11290CD978B1C01818 /* Pods-ZoomIV_Tests.modulemap */,
+				9CB41EECDA4103F7EA653D5860CD49A6 /* Pods-ZoomIV_Tests-acknowledgements.markdown */,
+				EB732F3FC055C578610E5746C89BFB37 /* Pods-ZoomIV_Tests-acknowledgements.plist */,
+				5D91E460BFB86D0C0A3FDD202FD9BED9 /* Pods-ZoomIV_Tests-dummy.m */,
+				F89E3BA186566F66609EFD939A284762 /* Pods-ZoomIV_Tests-frameworks.sh */,
+				B3DA5F5CC046E1AC11728DA1994A8D6C /* Pods-ZoomIV_Tests-resources.sh */,
+				CB1589737DEA0A2E14154A486892D850 /* Pods-ZoomIV_Tests-umbrella.h */,
+				2BA3EBE151F1D59F3001183C12881941 /* Pods-ZoomIV_Tests.debug.xcconfig */,
+				B432D4BC963BA5F6A5A175DD24638384 /* Pods-ZoomIV_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZoomIV_Tests";
+			path = "Target Support Files/Pods-ZoomIV_Tests";
+			sourceTree = "<group>";
+		};
+		77FBAA286C06B8E4C23A7D296CE2D349 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD0D94588A9615C49095B267A48C0CE /* Info.plist */,
+				FCB4EB8AFD19DA86B651D628F2C9935A /* ZoomIV.modulemap */,
+				5E5D93A11B7B0DE706B5DC4B75BF20AF /* ZoomIV.xcconfig */,
+				1CB7977AB835D61FECF6243B4893E593 /* ZoomIV-dummy.m */,
+				443A08A2768927043A2BBB3B3F44DB73 /* ZoomIV-prefix.pch */,
+				408A31EE247BED7B6439A4F99F56FC44 /* ZoomIV-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZoomIV";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B656B46A3B2B9E31752B80085E49D86C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F346DCB3C82B876CF5B4C4E8F42C3149 /* Products */,
+				11C5D201855011FBD6463524B284BBE2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B46A467284777C28C55A82839F41F24 /* Pods-ZoomIV_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD2DAF0363863D5DAA6231B2D0D68726 /* Info.plist */,
+				DBE206E21AE9664ECC4DFFFD240B1986 /* Pods-ZoomIV_Example.modulemap */,
+				34E7B71011A9B0DBB69EEE17447EB4C4 /* Pods-ZoomIV_Example-acknowledgements.markdown */,
+				ED99C756644DCB960020348679214115 /* Pods-ZoomIV_Example-acknowledgements.plist */,
+				98B7EA7B42DB47E1D6A2603E486C1345 /* Pods-ZoomIV_Example-dummy.m */,
+				0D77FE2156D3AE1DBEAF2CF65C3FA5AE /* Pods-ZoomIV_Example-frameworks.sh */,
+				CC26C9A6DC40C6F533E4F3F4C4FB881B /* Pods-ZoomIV_Example-resources.sh */,
+				4530E9565365FF6126CECA6D2CDA63D4 /* Pods-ZoomIV_Example-umbrella.h */,
+				E1964F3778A18CD99BD3C0A7023618C2 /* Pods-ZoomIV_Example.debug.xcconfig */,
+				8C37E8014610289FF1C5495C2E42973C /* Pods-ZoomIV_Example.release.xcconfig */,
+			);
+			name = "Pods-ZoomIV_Example";
+			path = "Target Support Files/Pods-ZoomIV_Example";
+			sourceTree = "<group>";
+		};
+		B656B46A3B2B9E31752B80085E49D86C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E09FF1304EDC1D6F6593CF79F6C65243 /* ZoomIV */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09FF1304EDC1D6F6593CF79F6C65243 /* ZoomIV */ = {
+			isa = PBXGroup;
+			children = (
+				E6826834D8FB909300B27093861DB53B /* ReplaceMe.swift */,
+				0CCE706D52877603EC483DE813B46103 /* Pod */,
+				77FBAA286C06B8E4C23A7D296CE2D349 /* Support Files */,
+			);
+			name = ZoomIV;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F346DCB3C82B876CF5B4C4E8F42C3149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				211142D846299EFEAB4C823364D74047 /* Pods_ZoomIV_Example.framework */,
+				12550EDAB89EB915EAC1DCDC1E4DF616 /* Pods_ZoomIV_Tests.framework */,
+				F78D714E0A519C7CD8E5F8218484C0AF /* ZoomIV.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CA1DC3047C133D03472C0DDF218F436 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45293B3987EFCE101BB8E526C4EADB2B /* ZoomIV-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720B13062FE55BB6C75C9BE993A39287 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12490030C28119C5229A4D77F248C309 /* Pods-ZoomIV_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CE3FD1671BE7A6374B7BD6469A4EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0624454F6C94700BD3D62A7684046AE1 /* Pods-ZoomIV_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		153C5BC61F831D4B26421461ECE9696C /* Pods-ZoomIV_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2664E56642521D7C10AE03C016C269 /* Build configuration list for PBXNativeTarget "Pods-ZoomIV_Example" */;
+			buildPhases = (
+				81731244542D3B022E8D03043E67AC2E /* Sources */,
+				1C087B6BA30B68DCED579AD5F17C9679 /* Frameworks */,
+				F6CE3FD1671BE7A6374B7BD6469A4EC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31920B3DF56C64DDAE5A04C4502E2061 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomIV_Example";
+			productName = "Pods-ZoomIV_Example";
+			productReference = 211142D846299EFEAB4C823364D74047 /* Pods_ZoomIV_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F60AF19A503C52D346033352DD99543 /* Pods-ZoomIV_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E975B361DB330C57C824251DF14C49 /* Build configuration list for PBXNativeTarget "Pods-ZoomIV_Tests" */;
+			buildPhases = (
+				6AE7B2D648066077A8860E71DC6D8728 /* Sources */,
+				14541D6C5E1ECFAC6005F0796CEF3EFD /* Frameworks */,
+				720B13062FE55BB6C75C9BE993A39287 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6FB0E544B6824B8FFFE287E1919510 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZoomIV_Tests";
+			productName = "Pods-ZoomIV_Tests";
+			productReference = 12550EDAB89EB915EAC1DCDC1E4DF616 /* Pods_ZoomIV_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFF7244B195DCFDD7A3D835AF5326E65 /* ZoomIV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32CB530857DF4C256B13413D8D5A741E /* Build configuration list for PBXNativeTarget "ZoomIV" */;
+			buildPhases = (
+				28844069D1A29AB73280364B669377EA /* Sources */,
+				A7099F099EE41CEE82444FDBBCA29FCF /* Frameworks */,
+				1CA1DC3047C133D03472C0DDF218F436 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomIV;
+			productName = ZoomIV;
+			productReference = F78D714E0A519C7CD8E5F8218484C0AF /* ZoomIV.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					DFF7244B195DCFDD7A3D835AF5326E65 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F346DCB3C82B876CF5B4C4E8F42C3149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				153C5BC61F831D4B26421461ECE9696C /* Pods-ZoomIV_Example */,
+				3F60AF19A503C52D346033352DD99543 /* Pods-ZoomIV_Tests */,
+				DFF7244B195DCFDD7A3D835AF5326E65 /* ZoomIV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28844069D1A29AB73280364B669377EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713BBB663079DB8CA87BA1001A9E121E /* ReplaceMe.swift in Sources */,
+				FCB95D5255BB4AEF3D6ACECADFC91752 /* ZoomIV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE7B2D648066077A8860E71DC6D8728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986FB0AAC29BFCC677A53B6E51910AAB /* Pods-ZoomIV_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81731244542D3B022E8D03043E67AC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FF8B81E56D6820A8AD96392BF4C7EF /* Pods-ZoomIV_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31920B3DF56C64DDAE5A04C4502E2061 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZoomIV;
+			target = DFF7244B195DCFDD7A3D835AF5326E65 /* ZoomIV */;
+			targetProxy = 734D645D613B1BC383F5022AAD66A24A /* PBXContainerItemProxy */;
+		};
+		CD6FB0E544B6824B8FFFE287E1919510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZoomIV_Example";
+			target = 153C5BC61F831D4B26421461ECE9696C /* Pods-ZoomIV_Example */;
+			targetProxy = 3FB098E058B85E082AC9D4162CAF5DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DCEEF6B3CE5E3F5B36CFCE5F453D296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA3EBE151F1D59F3001183C12881941 /* Pods-ZoomIV_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomIV_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomIV_Tests/Pods-ZoomIV_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5404425A917CD9C57F267991B3DEFD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1964F3778A18CD99BD3C0A7023618C2 /* Pods-ZoomIV_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomIV_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomIV_Example/Pods-ZoomIV_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		594518A88FCA8F8FD68B0F60B4E4733D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B432D4BC963BA5F6A5A175DD24638384 /* Pods-ZoomIV_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomIV_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomIV_Tests/Pods-ZoomIV_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		739A12959A7C345D2606975E09DD8B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5D93A11B7B0DE706B5DC4B75BF20AF /* ZoomIV.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZoomIV/ZoomIV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZoomIV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZoomIV/ZoomIV.modulemap";
+				PRODUCT_MODULE_NAME = ZoomIV;
+				PRODUCT_NAME = ZoomIV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		748EDD7D6ABD0B8EC2B024CE5340CAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C37E8014610289FF1C5495C2E42973C /* Pods-ZoomIV_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZoomIV_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZoomIV_Example/Pods-ZoomIV_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FBF5AA1A2C264604595A2323CBE53AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5D93A11B7B0DE706B5DC4B75BF20AF /* ZoomIV.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZoomIV/ZoomIV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZoomIV/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZoomIV/ZoomIV.modulemap";
+				PRODUCT_MODULE_NAME = ZoomIV;
+				PRODUCT_NAME = ZoomIV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2664E56642521D7C10AE03C016C269 /* Build configuration list for PBXNativeTarget "Pods-ZoomIV_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5404425A917CD9C57F267991B3DEFD2F /* Debug */,
+				748EDD7D6ABD0B8EC2B024CE5340CAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32CB530857DF4C256B13413D8D5A741E /* Build configuration list for PBXNativeTarget "ZoomIV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF5AA1A2C264604595A2323CBE53AD3 /* Debug */,
+				739A12959A7C345D2606975E09DD8B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1E975B361DB330C57C824251DF14C49 /* Build configuration list for PBXNativeTarget "Pods-ZoomIV_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DCEEF6B3CE5E3F5B36CFCE5F453D296 /* Debug */,
+				594518A88FCA8F8FD68B0F60B4E4733D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

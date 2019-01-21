@@ -1,0 +1,6 @@
+framework module Pods_ZoomIV_Example {
+  umbrella header "Pods-ZoomIV_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
