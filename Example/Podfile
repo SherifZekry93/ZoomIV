@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZoomIV_Example' do
+  pod 'ZoomIV', :path => '../'
+
+  target 'ZoomIV_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
