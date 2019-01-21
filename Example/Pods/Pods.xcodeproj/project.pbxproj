@@ -11,7 +11,7 @@
 		12490030C28119C5229A4D77F248C309 /* Pods-ZoomIV_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1589737DEA0A2E14154A486892D850 /* Pods-ZoomIV_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45293B3987EFCE101BB8E526C4EADB2B /* ZoomIV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408A31EE247BED7B6439A4F99F56FC44 /* ZoomIV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FE039AE26C98FC71CD49E037C13CB4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7EFF8BD521F5B39500F8FCAA /* ZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF8BD421F5B39500F8FCAA /* ZoomableImageView.swift */; };
+		7EFF8BFE21F5C1EB00F8FCAA /* ZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF8BFD21F5C1EB00F8FCAA /* ZoomableImageView.swift */; };
 		86B217EA4C8E13776B4A40B8BFAE0F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		986FB0AAC29BFCC677A53B6E51910AAB /* Pods-ZoomIV_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D91E460BFB86D0C0A3FDD202FD9BED9 /* Pods-ZoomIV_Tests-dummy.m */; };
 		B6FF8B81E56D6820A8AD96392BF4C7EF /* Pods-ZoomIV_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7EA7B42DB47E1D6A2603E486C1345 /* Pods-ZoomIV_Example-dummy.m */; };
@@ -53,7 +53,7 @@
 		5D91E460BFB86D0C0A3FDD202FD9BED9 /* Pods-ZoomIV_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomIV_Tests-dummy.m"; sourceTree = "<group>"; };
 		5E5D93A11B7B0DE706B5DC4B75BF20AF /* ZoomIV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZoomIV.xcconfig; sourceTree = "<group>"; };
 		71020BD33CC84F6379A98507B6E193FB /* ZoomIV.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZoomIV.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7EFF8BD421F5B39500F8FCAA /* ZoomableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableImageView.swift; sourceTree = "<group>"; };
+		7EFF8BFD21F5C1EB00F8FCAA /* ZoomableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableImageView.swift; sourceTree = "<group>"; };
 		8C37E8014610289FF1C5495C2E42973C /* Pods-ZoomIV_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomIV_Example.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98B7EA7B42DB47E1D6A2603E486C1345 /* Pods-ZoomIV_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomIV_Example-dummy.m"; sourceTree = "<group>"; };
@@ -172,21 +172,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		7EFF8BD321F5B34E00F8FCAA /* Classes */ = {
+		7EFF8BFC21F5C1E000F8FCAA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7EFF8BD421F5B39500F8FCAA /* ZoomableImageView.swift */,
+				7EFF8BFD21F5C1EB00F8FCAA /* ZoomableImageView.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		7EFF8BF421F5BABD00F8FCAA /* ZoomIV */ = {
-			isa = PBXGroup;
-			children = (
-				7EFF8BD321F5B34E00F8FCAA /* Classes */,
-			);
-			name = ZoomIV;
-			path = "New Group1";
 			sourceTree = "<group>";
 		};
 		8B46A467284777C28C55A82839F41F24 /* Pods-ZoomIV_Example */ = {
@@ -226,7 +217,7 @@
 		E09FF1304EDC1D6F6593CF79F6C65243 /* ZoomIV */ = {
 			isa = PBXGroup;
 			children = (
-				7EFF8BF421F5BABD00F8FCAA /* ZoomIV */,
+				7EFF8BFC21F5C1E000F8FCAA /* Classes */,
 				0CCE706D52877603EC483DE813B46103 /* Pod */,
 				77FBAA286C06B8E4C23A7D296CE2D349 /* Support Files */,
 			);
@@ -385,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6FF8B81E56D6820A8AD96392BF4C7EF /* Pods-ZoomIV_Example-dummy.m in Sources */,
-				7EFF8BD521F5B39500F8FCAA /* ZoomableImageView.swift in Sources */,
+				7EFF8BFE21F5C1EB00F8FCAA /* ZoomableImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
