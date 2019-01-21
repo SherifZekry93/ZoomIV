@@ -11,7 +11,7 @@
 		12490030C28119C5229A4D77F248C309 /* Pods-ZoomIV_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB1589737DEA0A2E14154A486892D850 /* Pods-ZoomIV_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45293B3987EFCE101BB8E526C4EADB2B /* ZoomIV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408A31EE247BED7B6439A4F99F56FC44 /* ZoomIV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FE039AE26C98FC71CD49E037C13CB4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		713BBB663079DB8CA87BA1001A9E121E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6826834D8FB909300B27093861DB53B /* ReplaceMe.swift */; };
+		7EFF8BD521F5B39500F8FCAA /* ZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF8BD421F5B39500F8FCAA /* ZoomableImageView.swift */; };
 		86B217EA4C8E13776B4A40B8BFAE0F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		986FB0AAC29BFCC677A53B6E51910AAB /* Pods-ZoomIV_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D91E460BFB86D0C0A3FDD202FD9BED9 /* Pods-ZoomIV_Tests-dummy.m */; };
 		B6FF8B81E56D6820A8AD96392BF4C7EF /* Pods-ZoomIV_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7EA7B42DB47E1D6A2603E486C1345 /* Pods-ZoomIV_Example-dummy.m */; };
@@ -53,6 +53,7 @@
 		5D91E460BFB86D0C0A3FDD202FD9BED9 /* Pods-ZoomIV_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomIV_Tests-dummy.m"; sourceTree = "<group>"; };
 		5E5D93A11B7B0DE706B5DC4B75BF20AF /* ZoomIV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZoomIV.xcconfig; sourceTree = "<group>"; };
 		71020BD33CC84F6379A98507B6E193FB /* ZoomIV.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZoomIV.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7EFF8BD421F5B39500F8FCAA /* ZoomableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableImageView.swift; sourceTree = "<group>"; };
 		8C37E8014610289FF1C5495C2E42973C /* Pods-ZoomIV_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomIV_Example.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98B7EA7B42DB47E1D6A2603E486C1345 /* Pods-ZoomIV_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomIV_Example-dummy.m"; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		DBE206E21AE9664ECC4DFFFD240B1986 /* Pods-ZoomIV_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZoomIV_Example.modulemap"; sourceTree = "<group>"; };
 		DD2DAF0363863D5DAA6231B2D0D68726 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1964F3778A18CD99BD3C0A7023618C2 /* Pods-ZoomIV_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomIV_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E6826834D8FB909300B27093861DB53B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZoomIV/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		EB732F3FC055C578610E5746C89BFB37 /* Pods-ZoomIV_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomIV_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED99C756644DCB960020348679214115 /* Pods-ZoomIV_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomIV_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EFF5077320E7686E586FEC34ED2E678D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -172,6 +172,23 @@
 			);
 			sourceTree = "<group>";
 		};
+		7EFF8BD221F5B33900F8FCAA /* ZoomIV */ = {
+			isa = PBXGroup;
+			children = (
+				7EFF8BD321F5B34E00F8FCAA /* Classes */,
+			);
+			name = ZoomIV;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7EFF8BD321F5B34E00F8FCAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7EFF8BD421F5B39500F8FCAA /* ZoomableImageView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		8B46A467284777C28C55A82839F41F24 /* Pods-ZoomIV_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +226,7 @@
 		E09FF1304EDC1D6F6593CF79F6C65243 /* ZoomIV */ = {
 			isa = PBXGroup;
 			children = (
-				E6826834D8FB909300B27093861DB53B /* ReplaceMe.swift */,
+				7EFF8BD221F5B33900F8FCAA /* ZoomIV */,
 				0CCE706D52877603EC483DE813B46103 /* Pod */,
 				77FBAA286C06B8E4C23A7D296CE2D349 /* Support Files */,
 			);
@@ -319,6 +336,9 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1000;
 				TargetAttributes = {
+					153C5BC61F831D4B26421461ECE9696C = {
+						LastSwiftMigration = 1000;
+					};
 					DFF7244B195DCFDD7A3D835AF5326E65 = {
 						LastSwiftMigration = 1000;
 					};
@@ -348,7 +368,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				713BBB663079DB8CA87BA1001A9E121E /* ReplaceMe.swift in Sources */,
 				FCB95D5255BB4AEF3D6ACECADFC91752 /* ZoomIV-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6FF8B81E56D6820A8AD96392BF4C7EF /* Pods-ZoomIV_Example-dummy.m in Sources */,
+				7EFF8BD521F5B39500F8FCAA /* ZoomableImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +445,7 @@
 			baseConfigurationReference = E1964F3778A18CD99BD3C0A7023618C2 /* Pods-ZoomIV_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -449,6 +470,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -527,6 +549,7 @@
 			baseConfigurationReference = 8C37E8014610289FF1C5495C2E42973C /* Pods-ZoomIV_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -550,6 +573,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
